@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>resources/StoreLogo.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>resources/eye_closed.png</file>
+        <file>resources/eye_open.png</file>
+    </qresource>
+</RCC>

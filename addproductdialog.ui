@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddProductDialog</class>
+ <widget class="QWidget" name="AddProductDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>240</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="addProductLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-size: 15px;
+	font-weight: bold;
+	color: #0b5572;
+	border: 0px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Add New Product</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="productNamelbl">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-size: 10px;
+	font-weight: bold;
+	color: #0b5572;
+	border: 0px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Product name</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="passLbl">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-size: 10px;
+	font-weight: bold;
+	color: #0b5572;
+	border: 0px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Price</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="categorylbl">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-size: 10px;
+	font-weight: bold;
+	color: #0b5572;
+	border: 0px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Category</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="descriptionlbl">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	font-size: 10px;
+	font-weight: bold;
+	color: #0b5572;
+	border: 0px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Description</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="categoryField">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>90</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+	font-size: 8px;
+	background-color: #7cb7be;
+	color: black;
+	border: 0px;
+	border-radius: 2px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="priceField">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	font-size: 8px;
+	background-color: #7cb7be;
+	color: black;
+	border: 0px;
+	border-radius: 2px;
+}</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="productNameField">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	font-size: 8px;
+	background-color: #7cb7be;
+	color: black;
+	border: 0px;
+	border-radius: 2px;
+}</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="descriptionField">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>123</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	font-size: 8px;
+	background-color: #7cb7be;
+	color: black;
+	border: 0px;
+	border-radius: 2px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="imagePreviewLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>200</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">Qlabel {
+	font-size: 10px;
+	font-weight: bold;
+	color: #0b5572;
+	border: 0px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Image Preview</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="imageButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #82bfc7;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 0px;
+}
+QPushButton:hover {
+	background-color: #0b5572;
+	color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Upload Image</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addProductButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #82bfc7;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 0px;
+}
+QPushButton:hover {
+	background-color: #0b5572;
+	color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSave"/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
